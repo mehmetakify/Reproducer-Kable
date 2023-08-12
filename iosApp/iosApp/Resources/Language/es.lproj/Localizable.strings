@@ -1,0 +1,156 @@
+/*
+  Localizable.strings
+  iosApp
+
+  Created by ramazankani on 9.11.2022.
+  Copyright © 2022 orgName. All rights reserved.
+*/
+
+// Login Screen
+"login_screen_company_code_hint" = "Enter company code";
+"login_screen_email_hint" = "Email";
+"login_screen_password_hint" = "Password";
+"login_screen_button_label" = "Sign in";
+"login_welcome" = "Welcome";
+"login_pin_code" = "PIN Code";
+"login_pin_code_forget" = "Forgot PIN Code?";
+"login_pin_code_keyboard_submit_button_label" = "Done";
+"login_forgot_pin_code_email_submit_button" = "Continue";
+"login_forgot_pin_code_email_title" = "Forgot PIN Code";
+"login_forgot_pin_code_email_content" = "Enter your email for the verification processes. We will send 4 digits code to your email.";
+"login_forgot_pin_code_email_ccode_input" = "Company Code";
+"login_forgot_pin_code_email_input" = "E-mail";
+"login_forgot_pin_code_code_submit_button" = "Continue";
+"login_forgot_pin_code_code_title" = "Enter 4 Digits Code";
+"login_forgot_pin_code_code_content" = "Enter the 4 digits code in 3 minutes after you receive as email.";
+"login_forgot_pin_code_reset_pin_submit_button" = "Reset PIN Code";
+"login_forgot_pin_code_reset_pin_title" = "Reset PIN Code";
+"login_forgot_pin_code_reset_pin_content" = "Set the new PIN code for your account so you can login.";
+"login_forgot_pin_code_reset_pin_input" = "PIN code";
+"login_forgot_pin_code_reset_pin_input_confirm" = "Confirm your PIN code";
+"login_forgot_pin_code_result_submit_button" = "OK";
+"login_forgot_pin_code_result_title" = "Well Done!";
+"login_forgot_pin_code_result_content" = "Your PIN code has been changed successfully. Use your new PIN code to login.";
+
+// forgot password errors
+"error_forgot_password_email_or_code_invalid" = "Email or company code is not valid!!";
+"error_forgot_password_code_invalid" = "Code is not valid!!";
+"error_forgot_password_not_same_pin" = "New password and confirmation are not same";
+"error_forgot_password_pin_invalid" = "Pin code is not valid!!";
+"error_forgot_password_confirm_pin_invalid" = "Confirm pin code is not valid!!";
+"error_forgot_password_unknown_error" = "Unknown error";
+
+"time_is_over" = "Time is over!";
+"remains" = "remains";
+"minutes" = "minutes";
+"seconds" = "seconds";
+
+// Navigation
+"back" = "Back";
+
+// Setup Screen
+"setup_screen_initialize_device" = "Initialize Device";
+"setup_screen_factory_reset" = "Factory Reset";
+"setup_screen_init_device_auth_error" = "You are not authorized to initialize device.";
+"setup_screen_init_device_network_error" = "Internet connection is required to initialize device in the setup screen. Use Schedules to initialize device offline.";
+
+// Settings Screen
+"settings_language" = "Select Language";
+"settings_screen_change_pincode" = "Change PIN Code";
+"settings_screen_sign_out" = "Sign Out";
+"settings_screen_contact_info" = "Send us your questions by e-mail and our Support Team will contact you.";
+"settings_screen_old_pin_hint" = "Enter current PIN code";
+"settings_screen_new_pin_hint" = "Enter new PIN code";
+"settings_screen_new_pin2_hint" = "Confirm your PIN code";
+"settings_change_pin_code_label" = "Change Pin Code";
+"settings_change_pin_code_change_button" = "Change";
+"settings_change_pin_code_back_button" = "Back";
+"settings_pin_code_change_successfully" = "PIN Code Change Successfully";
+"settings_email_copied_notification_text" = "Email address is copied!";
+"settings_email_send_subject" = "Feedback";
+"settings_email_send_content" = "Content";
+
+// Settings Screen Errors
+"settings_change_pincode_no_network" = "No Network Connection";
+"settings_change_pincode_empty_text" = "PIN code can not be empty";
+"settings_change_pincode_length_4_error" = "PIN code length must be 4";
+"settings_change_pincode_pin_no_number_error" = "PIN code must be digit";
+"settings_change_pincode_no_match_new_and_validity_pin_error" = "New and confirmation PIN are different";
+"settings_change_pincode_same_cur_and_new_pin_error" = "Current and New PIN are same";
+"settings_change_pincode_unknown_error" = "Unknown Error";
+"settings_change_pincode_wrong_pin_error" = "Wrong PIN";
+"settings_change_pincode_pin_error" = "PIN error";
+"settings_change_pincode_too_many_unsuccessful_try_error" = "Too many failed attempts";
+"settings_change_pincode_not_mobile_user_error" = "Not a mobile user";
+
+// Schedules Screen
+"schedule_list_no_schedule_empty" = "No Schedule Found";
+"schedule_list_search_result_empty" = "Searched Key has no Match";
+"schedule_address_alert_copy" = "Copy";
+"schedule_address_alert_cancel" = "Cancel";
+"schedule_address_copied_notification_text" = "Address is copied!";
+"schedule_list_searched_schedule_empty_warning" = "No Search Schedule Found";
+
+// Lock Types Screen
+"popupLock" = "Popup Lock";
+"safeLock" = "Safe Lock";
+"cabinetLock" = "Cabinet Lock";
+"alarm" = "Alarm";
+"default_lock_name" = "Default Lock";
+
+// Bluetooth Screen
+"bluetooth_device_list" = "Device List";
+"bluetooth_device_list_no_device" = "No Device Found";
+"bluetooth_error_unsupported_device" = "This device does not support our Bluetooth connection";
+"bluetooth_error_poweroff_device" = "Please open Bluetooth";
+"bluetooth_error_unauthorized_device" = "The bluetooth is required for this app. Please grant the permission.";
+"bluetooth_error_request_permission" = "Request Bluetooth Permission";
+"bluetooth_error_resetting_device" = "Bluetooth Device is Resetting..";
+"bluetooth_error_unknown" = "Unknown Bluetooth Error";
+"bluetooth_unknown_error" = "Unknown error. Please restart the App";
+"bluetooth_device_info_empty_error" = "Unknown Error. Connected But Device Info Is Empty";
+"bluetooth_connection_status" = "Bluetooth Status";
+"bluetooth_lock_status" = "Lock Status";
+"bluetooth_connection_connecting" = "";
+"bluetooth_connection_connected" = "Connected";
+"bluetooth_connection_not_connected" = "Not Connected";
+"bluetooth_connection_press_device_warning1" = "Please press the ";
+"bluetooth_connection_press_device_warning2" = "#";
+"bluetooth_connection_press_device_warning3" = " button once.";
+"bluetooth_device_battery_low_error" = "Battery level is low. Please change your battery!";
+"bluetooth_device_lock_open" = "Lock open";
+"bluetooth_device_lock_close" = "Lock close";
+"bluetooth_device_battery_component_label" = "Battery";
+"bluetooth_device_door_component_label" = "Door";
+"bluetooth_device_knob_component_label" = "Knob";
+"bluetooth_device_door_component_value_close" = "Close";
+"bluetooth_device_door_component_value_open" = "Open";
+"bluetooth_error_lock_not_found" = "Lock is not found in the company.";
+"bluetooth_factory_reset_success_message" = "Lock is initialized successfully.";
+"bluetooth_factory_reset_press_any_button" = "Press any button on the lock";
+"bluetooth_factory_reset_press_any_button2" = "Then press Factory Reset or Initialize Device";
+"bluetooth_connection_factory_reset_process_warning" = "Please Wait in this Section! Factory Reset In Progress...";
+"bluetooth_factory_reset_button_label" = "Factory Reset";
+"bluetooth_initialize_device_button_label" = "Initialize Device";
+
+// Error Messages
+"error_login_no_internet" = "Check your company code or Internet Connection";
+"error_login_wrong_email_or_pin_code" = "Wrong Email or PIN Code";
+"error_login_many_times_unsuccessful_try" = "Too many failed attempts";
+"error_login_not_a_mobile_user" = "Not a Mobile User";
+"error_login_email_error" = "Email Error";
+"error_login_pin_code_error" = "Pin Code Error";
+"error_login_company_code_error"= "Company Code Error";
+"error_login_unknown" = "Unknown Error";
+"error_login_invalid_email" = "Invalid Email";
+"error_login_invalid_company_code" = "Invalid Company Code";
+"error_login_wrong_email" = "Wrong Email";
+"error_login_wrong_code" = "Wrong Code";
+"error_login_invalid_pin_code" = "PIN Code is not valid!";
+
+// Screen Titles
+"1" = "LOCK TYPES";
+"2" = "SCHEDULES";
+"3" = "SETTINGS";
+"4" = "SETUP";
+"5" = "ZERON LOCKS";

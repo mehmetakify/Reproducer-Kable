@@ -1,0 +1,58 @@
+//
+//  Level1NavigationRail.swift
+//  iosApp
+//
+//  Created by ramazankani on 21.10.2022.
+//  Copyright © 2022 orgName. All rights reserved.
+//
+
+import Foundation
+
+import SwiftUI
+import shared
+
+
+extension Navigation {
+
+    // this is the left vertical navigation bar for 2-Pane visualization
+    // (used by bigger devices in landscape mode)
+    
+    @ViewBuilder func level1NavigationRail(selectedTab: ScreenIdentifier) -> some View {
+
+        Spacer()
+        NavigationRailButton(
+            itemLabel: "All Countries",
+            iconName: "list.bullet",
+            selected: selectedTab.URI==Level1Navigation.start.screenIdentifier.URI,
+            onClick: { self.navigateByLevel1Menu(level1NavigationItem: Level1Navigation.start) }
+        )
+        NavigationRailButton(
+            itemLabel: "Favorites",
+            iconName: "star.fill",
+            selected: selectedTab.URI==Level1Navigation.start.screenIdentifier.URI,
+            onClick: { self.navigateByLevel1Menu(level1NavigationItem: Level1Navigation.start) }
+        )
+        Spacer()
+
+    }
+        
+}
+
+struct NavigationRailButton: View {
+    var itemLabel : String
+    var iconName : String
+    var selected : Bool
+    var onClick : () -> Void
+    
+    var body: some View {
+        Button(action: { onClick() }) {
+            VStack(spacing: 5) {
+                Image(systemName: iconName).resizable().scaledToFit().frame(height:15)
+                Text(itemLabel).font(Font.footnote)
+            }
+            .padding(.top, 25)
+            .padding(.bottom, 25)
+            .foregroundColor(selected ? .white : .pink)
+        }
+    }
+}
